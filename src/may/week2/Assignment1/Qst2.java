@@ -1,5 +1,5 @@
 // WAP find area of rectangle.
-package may.week1.Assignment1;
+package may.week2.Assignment1;
 import java.util.Scanner;
 public class Qst2 {
     public static void main(String[] args){

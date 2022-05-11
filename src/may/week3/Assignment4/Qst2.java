@@ -5,7 +5,7 @@ c b a
 d c b
 */
 
-package may.week2.Assignment4;
+package may.week3.Assignment4;
 
 public class Qst2 {
 

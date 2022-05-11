@@ -1,5 +1,5 @@
 //5.  WAP to input two integers and print sum.
-package may.week1.Assignment1;
+package may.week2.Assignment1;
 import java.util.Scanner;
 public class Qst1 {
     public static void main(String[] args){
