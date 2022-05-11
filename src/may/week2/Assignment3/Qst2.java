@@ -1,7 +1,7 @@
 
 /*- WAP to print all multiples of 7 till n*/
 
-package may.week2.Assignment3;
+package may.week1.Assignment3;
 import java.util.Scanner;
 
 public class Qst2 {

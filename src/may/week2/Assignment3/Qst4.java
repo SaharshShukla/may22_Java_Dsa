@@ -2,7 +2,7 @@
 if iteration is even(0th,2nd,4th..) print sum else print multplication.
  */
 
-package may.week2.Assignment3;
+package may.week1.Assignment3;
 import java.util.Scanner;
 
 public class Qst4 {

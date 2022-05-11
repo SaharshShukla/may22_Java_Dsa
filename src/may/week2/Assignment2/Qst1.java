@@ -2,7 +2,7 @@
 WAP to input hour(24 hour format) and print good morning(<12)
 / good afternoon(<=16) / good evening(<=20) / good night
  */
-package may.week2.Assignment2;
+package may.week1.Assignment2;
 import java.util.Scanner;
 public class Qst1 {
     public static void main(String[] args){

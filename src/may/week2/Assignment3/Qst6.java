@@ -1,6 +1,6 @@
 /*- WAP to count number of pairs in 1-n with sum even.*/
 
-package may.week2.Assignment3;
+package may.week1.Assignment3;
 import java.util.Scanner;
 
 public class Qst6 {

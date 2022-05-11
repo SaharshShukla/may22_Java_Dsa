@@ -1,6 +1,6 @@
 /*- WAP to count multiples of 3, multiples of 5 and both 3,5 in range 1-n.*/
 
-package may.week2.Assignment3;
+package may.week1.Assignment3;
 import java.util.Scanner;
 
 public class Qst3 {
