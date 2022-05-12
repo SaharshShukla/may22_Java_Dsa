@@ -13,14 +13,16 @@ public class Qst1 {
     }
     static void check(int time){
 
-        if(time <= 12 && time <= 15){
+        if(time <= 12 ){
             System.out.println("Good morning");
-        }else if(time <= 16 && time <= 19){
+        }else if(time > 12 && time <= 16){
             System.out.println("Good afternoon");
-        }else if(time <= 20){
+        }else if(time > 16 && time <= 20){
             System.out.println("Good evening");
-        }else{
+        }else if(time > 20 && time <= 24){
             System.out.println("Good night");
+        }else{
+            System.out.println("Invalid time");
         }
     }
 }
