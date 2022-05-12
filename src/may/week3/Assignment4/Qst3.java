@@ -10,27 +10,25 @@ public class Qst3 {
 
     static void upperCaseTriangleWithAscii(){
         System.out.println("Printing upper case triangle by using ascii value");
-        for( int i = 65; i <= 70; i++){
-            for( int j = 65; j <= (i - 1); j++){
-                System.out.print((char)j + " ");
+        for(int i = 1 ; i <= 4; i++){
+            for(int j = 1 ; j <= i; j++){
+                if(i % 2 != 0 ){
+                    for(char c = 'a'; c <= 'd'; c++){
+                        System.out.print(c + " ");
+                    }
+                }else{
+                    for(char c = 'A'; c <= 'E'; c++){
+                        System.out.print(c + " ");
+                    }
+                }
             }
             System.out.println();
         }
     }
 
     public static void main(String[] args){
-        upperCaseTriangleWithOutAscii();
-        System.out.println("-------------------------------");
         upperCaseTriangleWithAscii();
     }
 
-    static void upperCaseTriangleWithOutAscii(){
-        System.out.println("Printing upper case triangle by not using ascii value");
-        for( char i = 'A'; i <= 'E'; i++){
-            for( char j = 'A'; j <= i; j++){
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
-    }
+
 }
