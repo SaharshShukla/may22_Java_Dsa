@@ -1,5 +1,5 @@
 /* Make a full report card program. */
-package may.week1.Assignment2;
+package may.week3.Assignment2;
 import java.util.Scanner;
 
 public class Qst2 {

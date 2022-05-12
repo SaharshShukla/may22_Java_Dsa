@@ -4,7 +4,7 @@
 
  */
 
-package may.week1.Assignment3;
+package may.week3.Assignment3;
 import java.util.Scanner;
 
 public class Qst5 {

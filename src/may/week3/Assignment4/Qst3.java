@@ -11,7 +11,7 @@ public class Qst3 {
     static void upperCaseTriangleWithAscii(){
         System.out.println("Printing upper case triangle by using ascii value");
         for( int i = 65; i <= 70; i++){
-            for( char j = 65; j <= (i - 1); j++){
+            for( int j = 65; j <= (i - 1); j++){
                 System.out.print((char)j + " ");
             }
             System.out.println();
