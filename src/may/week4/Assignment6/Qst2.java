@@ -8,10 +8,10 @@ public class Qst2 {
     static void evenIndex(int[] arr){
 
         System.out.println("\n---Even---Index--in--reverse--order--");
-        for(int i = (arr.length - 1); i >= 0; i--){
-            if(i % 2 == 0){
+        for(int i = (arr.length - 1); i >= 0; i -= 2){
+           // if(i % 2 == 0){
                 System.out.print(arr[i] + " ");
-            }
+            //}
         }
     }
 
@@ -19,10 +19,10 @@ public class Qst2 {
 
 
         System.out.println("\n-----Odd----Index--in--reverse--order--");
-        for(int i = (arr.length - 1); i >= 0; i--){
-            if(i % 2 != 0){
+        for(int i = (arr.length - 2); i >= 1; i -= 2){
+          //  if(i % 2 != 0){
                 System.out.print(arr[i] + " ");
-            }
+            //}
         }
     }
 

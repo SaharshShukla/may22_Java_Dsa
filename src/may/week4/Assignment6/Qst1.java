@@ -9,10 +9,10 @@ public class Qst1 {
     static void evenIndex(int[] arr){
 
         System.out.println("\n-----Even---Index-----");
-        for(int i = 0; i < arr.length; i++){
-            if(i % 2 == 0){
+        for(int i = 0; i < arr.length; i += 2){
+            //if(i % 2 == 0){
                 System.out.print(arr[i] + " ");
-            }
+           // }
         }
     }
 
@@ -20,10 +20,10 @@ public class Qst1 {
 
 
         System.out.println("\n-----Odd-Index-------");
-        for(int i = 0; i < arr.length; i++){
-            if(i % 2 != 0){
+        for(int i = 1; i < arr.length; i += 2){
+            //if(i % 2 != 0){
                 System.out.print(arr[i] + " ");
-            }
+           // }
         }
     }
 
